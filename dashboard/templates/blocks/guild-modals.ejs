@@ -1,0 +1,27 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<div class="modal fade" id="settingsResetModal" tabindex="-1" role="dialog" aria-labelledby="settingsResetModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content" style="background-color: #303030; color: #ffffff;">
+			<div class="modal-header" style="border: 0px;">
+				<h5 class="modal-title" id="settingsResetModalLabel">Emin misiniz?</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body" style="background-color: #303030; color: #fff;">
+				<p>
+					 Yeni bir kod istediğinize emin misiniz?
+        </p>
+        <p>
+           Kod bot tarafından size DM yolu ile iletilecektir. Lütfen DM mesajlarınızı aktif etmeyi unutmayınız.
+        </p>
+			</div>
+			<div class="modal-footer" style="background-color: #303030; color: #000; border: 0px;">
+				<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Hayır!</button>
+				<a class="btn btn-outline-danger" href="/authorize/<%=user.id%>/auth/yeni-kod" role="button">Evet!</a>
+			</div>
+		</div>
+	</div>
+</div>
